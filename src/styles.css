@@ -76,6 +76,15 @@ p.descriptions {
 .lake-room-1.top-img.container-fluid {
   background-image: url(/images/Lakeview1-6.jpg);
 }
+.lake-room-1 .gallery {
+  max-width: 75%;
+  columns: 3;
+  gap: 15px;
+}
+.lake-room-1 .gallery .img {
+  margin-bottom: 10px;
+  width: 75%;
+}
 
 footer a {
   color: #a34a28;
