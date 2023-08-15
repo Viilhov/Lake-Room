@@ -43,6 +43,12 @@ h4 {
 .main-img .image-text {
   padding-top: 150px;
 }
+.about.top-img.container-fluid {
+  background-image: url(/images/LakeViewAbout.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 335px;
+}
 
 footer a {
   color: #a34a28;
