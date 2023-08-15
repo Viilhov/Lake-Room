@@ -10,5 +10,16 @@ h2 {
   font-family: "Inter", sans-serif;
 }
 .navigation .navbar-nav {
-  justify-content: space-evenly;
+}
+.navigation .navbar-nav a {
+  text-transform: uppercase;
+}
+.nav-item.nav-link {
+  color: #211717;
+}
+.nav-item.nav-link.active {
+  color: #a34a28;
+}
+.nav-item.nav-link:hover {
+  color: #a34a28;
 }
