@@ -2,7 +2,6 @@ body {
   color: #211717;
   font-family: "Barlow", sans-serif;
   text-align: center;
-  font-weight: 400;
 }
 h1 {
   text-transform: uppercase;
@@ -12,10 +11,26 @@ h1 {
 h2 {
   font-size: 40px;
   text-transform: uppercase;
+  font-weight: 300;
+}
+h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: 50px;
 }
 h4 {
-  font-weight: 300;
   margin-top: 20px;
+  font-weight: 300;
+}
+p {
+  font-size: 18px;
+  line-height: 2;
+  margin: 20px 0;
+}
+hr {
+  width: 30%;
+  display: inline-block;
 }
 .navigation {
   font-family: "Inter", sans-serif;
@@ -43,11 +58,23 @@ h4 {
 .main-img .image-text {
   padding-top: 150px;
 }
+
+p.descriptions {
+  max-width: 75%;
+  display: inline-block;
+  text-align: justify;
+}
+
 .about.top-img.container-fluid {
   background-image: url(/images/LakeViewAbout.jpg);
+}
+.top-img.container-fluid {
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 335px;
+  padding-top: 335px;
+}
+.lake-room-1.top-img.container-fluid {
+  background-image: url(/images/Lakeview1-6.jpg);
 }
 
 footer a {
