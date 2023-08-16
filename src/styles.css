@@ -76,6 +76,10 @@ p.descriptions {
 .lake-room-1.top-img.container-fluid {
   background-image: url(/images/Lakeview1-6.jpg);
 }
+.lake-room-2.top-img.container-fluid {
+  background-image: url(/images/Lakeview2-6-1.jpg);
+}
+
 .book-now p {
   display: inline-block;
   margin-right: 10px;
