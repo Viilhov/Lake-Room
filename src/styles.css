@@ -54,24 +54,21 @@ hr {
   background-repeat: no-repeat;
   padding-bottom: 500px;
 }
-
 .main-img .image-text {
   padding-top: 150px;
 }
-
 p.descriptions {
   max-width: 75%;
   display: inline-block;
   text-align: justify;
 }
-
 .about.top-img.container-fluid {
   background-image: url(/images/LakeViewAbout.jpg);
 }
 .top-img.container-fluid {
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 335px;
+  padding-top: 400px;
 }
 .lake-room-1.top-img.container-fluid {
   background-image: url(/images/Lakeview1-6.jpg);
@@ -82,7 +79,9 @@ p.descriptions {
 .contact.top-img.container-fluid {
   background-image: url(/images/Lakeview.jpg);
 }
-
+.reviews.top-img.container-fluid {
+  background-image: url(/images/Lakeroon5-5.jpg);
+}
 .book-now p {
   display: inline-block;
   margin-right: 10px;
@@ -103,7 +102,9 @@ p.descriptions {
   width: 100%;
   margin-top: 100px;
 }
-
+.reviews.container {
+  max-width: 75%;
+}
 .image-grid {
   --gap: 2px;
   --num-cols: 3;
@@ -136,7 +137,6 @@ p.descriptions {
 footer p {
   font-size: 12px;
 }
-
 footer a {
   color: #a34a28;
   text-decoration: none;
