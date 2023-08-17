@@ -141,7 +141,7 @@ p.descriptions {
   margin: auto;
 }
 .reviews .opinion {
-  margin: 10px 25px;
+  margin: 20px 25px;
   break-inside: avoid;
 }
 .reviews .opinion i {
@@ -153,10 +153,12 @@ p.descriptions {
 }
 .reviews .opinion p {
   margin: 0;
+  text-align: justify;
 }
 .reviews .opinion .italic {
   font-style: italic;
   font-weight: 600;
+  text-align: center;
 }
 
 footer p {
